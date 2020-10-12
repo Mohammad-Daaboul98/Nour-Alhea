@@ -1,11 +1,9 @@
-h1{
-    color: whitesmoke;
-    margin: 3% auto;
-}
+
 body {
     font-family: "Cairo";
     font-weight: 600;
     text-align: center;
+    color: white;
   }
   p{
       text-align: center;
@@ -15,13 +13,22 @@ body {
     width: 55%;
   }
   /* Navigation Bar */
-.navbar {
-  padding: 0 0 4.5rem;
-}
-
-.nav-item {
-  padding: 0 18px;
-}
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+  }
 
 
   /* Color-section */
@@ -59,12 +66,16 @@ body {
     padding: 7% 15%;
 }
 
-.p-section{
-   text-align: right;
+.h-section{
+   /* text-align: center;
    font-weight: 800;
-   font-size: x-large;
-   width: 70%;
-   margin: 6% auto;
+   width: 50%;
+   margin: 6% auto; */
+   font-size: 3rem;
+  line-height: 1.5;
+}
+.section-div{
+    margin: 3% auto;
 }
 /* article-section */
 .article-title{
@@ -82,4 +93,9 @@ body {
 /* article */
 #article{
     padding: 7% 5%;
+}
+
+
+.carousel-item{
+    padding: 7% 15%;
 }
