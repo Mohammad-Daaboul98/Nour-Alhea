@@ -46,12 +46,12 @@ body {
     color: #fff;
     padding: 5% 10%;
 }
-}
+
 .title-heading{
     font-family: Kufam;
     font-size: 2rem;
     font-weight: 600;
-    line-height: 1.5;
+    /* line-height: 1.5; */
     text-align: right;
     margin: auto;
 }
@@ -62,9 +62,8 @@ body {
     margin: 10% auto;
 }
 /* First-section  */
-#First-sectio{
-    padding: 7% 15%;
-}
+/* #First-sectio{
+} */
 
 .h-section{
    /* text-align: center;
@@ -91,8 +90,53 @@ body {
     margin: 3% auto;
 }
 /* article */
-#article{
-    padding: 7% 5%;
+/* #article{
+
+} */
+
+/* Azkar */
+#Azkar{
+    background-color:white;
+}
+.Azkar-heading2{
+    margin: 3% auto;
+}
+.Azkar-heading3{
+    color: gray;
+}
+
+.Azkar-img{
+width: 40%;
+margin: 3% auto;
+}
+/* card */
+.card{
+    margin: auto;
+    width: 60%;
+}
+.Azkar-P{
+color: black;
+text-align: center;
+margin: auto;
+}
+.Azkar-P:hover{color: white;}
+/* Main-padding */
+.Main-padding{
+    padding: 7% 15%;
+}
+
+@media (max-width: 1028px) {
+    /* .card{
+        margin: auto;
+        width: 100%;
+    } */
+    .Main-padding{
+        padding: 0;
+    }
+    .Azkar-P{
+        font-size: small;
+        
+    }
 }
 
 
