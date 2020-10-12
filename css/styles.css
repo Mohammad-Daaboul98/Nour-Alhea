@@ -1,0 +1,85 @@
+h1{
+    color: whitesmoke;
+    margin: 3% auto;
+}
+body {
+    font-family: "Cairo";
+    font-weight: 600;
+    text-align: center;
+  }
+  p{
+      text-align: center;
+    font-size: larger;
+    text-align: right;
+    color: white;
+    width: 55%;
+  }
+  /* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+
+  /* Color-section */
+  .Color-section{
+    background-color:#0f4c75 ;
+}
+/* white-section */
+.white-section{
+    background-color: white;
+}
+/* Title Section */
+
+#title {
+    background-color: #1b262c;
+    color: #fff;
+    padding: 5% 10%;
+}
+}
+.title-heading{
+    font-family: Kufam;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: right;
+    margin: auto;
+}
+
+/* Title Image */
+.title-image {
+    width: 75%;
+    margin: 10% auto;
+}
+/* First-section  */
+#First-sectio{
+    padding: 7% 15%;
+}
+
+.p-section{
+   text-align: right;
+   font-weight: 800;
+   font-size: x-large;
+   width: 70%;
+   margin: 6% auto;
+}
+/* article-section */
+.article-title{
+    color: gray;
+    font-size: xx-large;
+    font-size: 2.5rem;
+}
+.article-p{
+    color: black;
+    text-align: right;
+    width: 100%;
+    line-height:1.7;
+    margin: 3% auto;
+}
+/* article */
+#article{
+    padding: 7% 5%;
+}
